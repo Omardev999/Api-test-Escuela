@@ -77,3 +77,4 @@
 /home/debian/RiderProjects/WebApplication1/Db-Escuela/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
 /home/debian/RiderProjects/WebApplication1/Db-Escuela/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
 /home/debian/RiderProjects/WebApplication1/Db-Escuela/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+/home/debian/RiderProjects/WebApplication1/Db-Escuela/obj/Debug/net8.0/Db-Escuela.sourcelink.json

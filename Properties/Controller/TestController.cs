@@ -53,22 +53,50 @@ public class TestController : ControllerBase
         }
     }
 
+   
     
-    // [HttpGet("matricula2")]
-    // public List<String> TestMatricula2()
-    // {
-    //     try
-    //     {
-    //         List<String> result = testModel.Matricula();
-    //         return result;
-    //     }
-    //     catch (Exception ex)
-    //     {
-    //         return new List<String> { ex.Message };
-    //     }
-    // }
+    [HttpGet("matricula2")]
+    public IActionResult TestMatricula2()
+    {
+        try
+        { 
+            List<Dictionary<String,string>> result = testModel.MatriculaDictionary();
+            return Ok(new { matriculas = result, count = result.Count });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { error = ex.Message, stackTrace = ex.StackTrace });
+        }
+    }
     
+    [HttpGet("matricula3")]
+    public IActionResult TestMatricula3()
+    {
+        try
+        { 
+            List<Dictionary<String,string>> result = testModel.MatriculaDictionary2();
+            return Ok(new { matriculas = result, count = result.Count });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { error = ex.Message, stackTrace = ex.StackTrace });
+        }
+    }
     
+    [HttpGet("matricula4")]
+    public IActionResult TestMatriculalist()
+    {
+        try
+        { 
+            List<Dictionary<String,string>> result = testModel.MatriculaDictionary3();
+            result = result.Take(100).ToList(); // Limitar a 100 resultados
+            return Ok(new { matriculas = result, count = result.Count });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { error = ex.Message, stackTrace = ex.StackTrace });
+        }
+    }
     // [HttpGet("validate")]
     // public IActionResult ValidateConnection()
     // {

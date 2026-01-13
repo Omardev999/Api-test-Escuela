@@ -75,4 +75,140 @@ public class TestModel
         }
        
     }
+    
+    public List<Dictionary<String,string>> MatriculaDictionary()
+    {
+       
+        // Configuración de la cadena de conexión
+        DbConnectionStringBuilder builder = new DbConnectionStringBuilder();
+        builder.ConnectionString = _configuration.GetConnectionString("DefaultConnection");
+        using (SqlConnection conn = new SqlConnection(builder.ConnectionString))
+        {
+            try
+            {
+                conn.Open();
+                Console.WriteLine("✅ Conexión exitosa");
+                
+                Dictionary<string, string> matriculas = new Dictionary<string, string>();
+
+
+                
+                // Query simple
+                string query = "SELECT Matricula FROM core.Alumno";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            // string nombre = reader["Nombre"]?.ToString() ?? "";
+                            string matricula = reader["Matricula"]?.ToString() ?? "";
+
+                            if (!string.IsNullOrWhiteSpace(matricula))
+                            {
+                               matriculas[matricula] = matricula;
+                            }
+                            
+                        }
+                    }
+                }
+                return new List<Dictionary<string, string>> { matriculas };
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Error: {ex.Message}");
+                return new List<Dictionary<string, string>>();
+            }
+        }
+       
+    }
+    
+    public List<Dictionary<String,string>> MatriculaDictionary2()
+    {
+       
+        // Configuración de la cadena de conexión
+        DbConnectionStringBuilder builder = new DbConnectionStringBuilder();
+        builder.ConnectionString = _configuration.GetConnectionString("DefaultConnection");
+        using (SqlConnection conn = new SqlConnection(builder.ConnectionString))
+        {
+            try
+            {
+                conn.Open();
+                Console.WriteLine("✅ Conexión exitosa");
+                
+                Dictionary<string, string> matriculas = new Dictionary<string, string>();
+
+
+                
+                // Query simple
+                string query = "SELECT Matricula FROM core.Alumno";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string id = Guid.NewGuid().ToString();
+                            string matricula = reader["Matricula"]?.ToString() ?? "";
+
+                            matriculas[id] = matricula;
+                        }
+                    }
+                }
+                return new List<Dictionary<string, string>> { matriculas };
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Error: {ex.Message}");
+                return new List<Dictionary<string, string>>();
+            }
+        }
+    }
+
+    public List<Dictionary<String, string>> MatriculaDictionary3()
+    {
+            
+        // Configuración de la cadena de conexión
+        DbConnectionStringBuilder builder = new DbConnectionStringBuilder();
+        builder.ConnectionString = _configuration.GetConnectionString("DefaultConnection");
+        using (SqlConnection conn = new SqlConnection(builder.ConnectionString))
+        {
+            try
+            {
+                conn.Open();
+                Console.WriteLine("✅ Conexión exitosa");
+                
+                Dictionary<string, List<string>> alumnosPorPlantel = new Dictionary<string, List<string>>();
+
+
+
+                
+                // Query simple
+                string query = " SELECT\n            p.Nombre as Plantel,\n            a.Matricula\n        FROM core.Plantel p\n                 INNER JOIN core.Alumno a ON p.PlantelID = a.PlantelID\n        WHERE p.IsActive = 1 AND a.IsActive = 1\n        ORDER BY p.Nombre";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                          string plantel = reader["Plantel"]?.ToString() ?? "Desconocido";
+                            string matricula = reader["Matricula"]?.ToString() ?? "";
+                            if (!alumnosPorPlantel.ContainsKey(plantel))
+                            {
+                                alumnosPorPlantel[plantel] = new List<string>();
+                            }
+                            alumnosPorPlantel[plantel].Add(matricula);
+                            
+                        }
+                    }
+                }
+                return new List<Dictionary<string, string>> { alumnosPorPlantel.ToDictionary(kvp => kvp.Key, kvp => string.Join(", ", kvp.Value)) };
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Error: {ex.Message}");
+                return new List<Dictionary<string, string>> {};
+            }
+        }
+    }
 }
