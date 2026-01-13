@@ -1,0 +1,254 @@
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5010
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/debian/RiderProjects/WebApplication1/Db-Escuela
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+✅ Conexión exitosa
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-001
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-002
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-003
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-004
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-005
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-006
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-007
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-008
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-009
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-010
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-011
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-012
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-013
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-014
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-015
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-001
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-002
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-003
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-004
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-005
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-006
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-007
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-008
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-009
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-010
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-011
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-012
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-013
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-014
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-015
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-016
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-017
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-018
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-019
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-020
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-021
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-022
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-023
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-024
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-025
+✅ Conexión exitosa
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-001
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-002
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-003
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-004
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-005
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-006
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-007
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-008
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-009
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-010
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-011
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-012
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-013
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-014
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-015
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-001
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-002
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-003
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-004
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-005
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-006
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-007
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-008
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-009
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-010
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-011
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-012
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-013
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-014
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-015
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-016
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-017
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-018
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-019
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-020
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-021
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-022
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-023
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-024
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-025
+✅ Conexión exitosa
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-001
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-002
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-003
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-004
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-005
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-006
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-007
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-008
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-009
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-010
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-011
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-012
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-013
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-014
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-PRI-015
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-001
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-002
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-003
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-004
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-005
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-006
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-007
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-008
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-009
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-010
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-011
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-012
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-013
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-014
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-015
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-016
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-017
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-018
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-019
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-020
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-021
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-022
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-023
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-024
+Columnas disponibles: AlumnoID, PersonaID, Matricula, PlantelID, FechaIngreso, EsBecado, PorcentajeBeca, IsActive
+Matrícula: 2025-SEC-025

@@ -1,0 +1,6 @@
+@Db_Escuela_HostAddress = http://localhost:5010
+
+GET {{Db_Escuela_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
