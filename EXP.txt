@@ -1,0 +1,87 @@
+NumeroDeSerie	Id	Valor
+NS123		id1	1
+NS123		id2	3
+NS123		id3	3
+NS456		id4	1
+NS456		id5	3
+
+
+public class SerieConIds
+{
+    public string NumeroDeSerie { get; set; }
+    public Dictionary<string, int> Ids { get; set; } = new Dictionary<string, int>();
+}
+
+List<SerieConIds> listaSeries = new List<SerieConIds>();
+
+using (SqlCommand cmd = new SqlCommand("NombreDelSP", conn))
+{
+    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+    using (SqlDataReader reader = cmd.ExecuteReader())
+    {
+        // Diccionario auxiliar para agrupar por NumeroDeSerie
+        Dictionary<string, SerieConIds> dictSeries = new Dictionary<string, SerieConIds>();
+
+        while (reader.Read())
+        {
+            string numeroSerie = reader["NumeroDeSerie"].ToString();
+            string id = reader["Id"].ToString();
+            int valor = Convert.ToInt32(reader["Valor"]);
+
+            // Si ya existe la serie, agregamos el ID
+            if (dictSeries.ContainsKey(numeroSerie))
+            {
+                dictSeries[numeroSerie].Ids[id] = valor;
+            }
+            else
+            {
+                // Si no existe, creamos el objeto
+                var serie = new SerieConIds
+                {
+                    NumeroDeSerie = numeroSerie,
+                    Ids = new Dictionary<string, int> { { id, valor } }
+                };
+                dictSeries[numeroSerie] = serie;
+            }
+        }
+
+        // Convertimos el diccionario en lista
+        listaSeries = dictSeries.Values.ToList();
+    }
+}
+
+// Ejemplo: obtener el valor de id3 en NS123
+var serie = listaSeries.FirstOrDefault(s => s.NumeroDeSerie == "NS123");
+if (serie != null && serie.Ids.TryGetValue("id3", out int valor))
+{
+    Console.WriteLine($"Valor id3 de NS123: {valor}");
+}
+
+// Ejemplo: recorrer todas las series
+foreach (var s in listaSeries)
+{
+    Console.WriteLine($"NumeroDeSerie: {s.NumeroDeSerie}");
+    foreach (var kvp in s.Ids)
+    {
+        Console.WriteLine($"   {kvp.Key} = {kvp.Value}");
+    }
+}
+
+[
+  {
+    "NumeroDeSerie": "NS123",
+    "Ids": {
+      "id1": 1,
+      "id2": 3,
+      "id3": 3
+    }
+  },
+  {
+    "NumeroDeSerie": "NS456",
+    "Ids": {
+      "id4": 1,
+      "id5": 3
+    }
+  }
+]
