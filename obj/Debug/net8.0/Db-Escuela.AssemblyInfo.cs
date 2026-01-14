@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Db-Escuela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d357a05dbea285cf259df28a3f436daacbf329")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efc466dbc90aec5118c2e066c8e59fc527c9cba7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Db-Escuela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Db-Escuela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
